@@ -2,20 +2,55 @@
 <html lang="en-US">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/jpg" href="images/favicon.jpg">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" type="image/jpg" href="assets/images/favicon.jpg">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<title>David Hammond</title>
 </head>
 <body>
-	<h1>David Hammond</h1>
-	<nav>
-	<ul>
-	<li><a href="home.html">Home</a></li>
-	<li><a href="about.html">About</a></li>
-	<li><a href="portfolio.html">Portfolio</a></li>
-	</ul>
-
-
+	<div id="backGround">
+	<!--this div will contain the name and nav bar into its own group-->
+	<div id="topBar">
+		<!--this is where my name header will go-->
+		<div id="topBox">
+			<h1>David Hammond</h1>
+		</div>
+		<!--This will be my nav bar to control my links-->
+		<nav>
+		<a href="index.html">About</a>
+		<a id="portLink" href="portfolio.html">Portfolio</a>
+		<a href="contact.html">Contact</a>
+		</nav>
+	
+	<!--this div will contain the rest of the page-->
+	<div id="wrapper">
+		<!--This div contains the content portion-->
+		<div id="content">
+			<h2>About Me</h2>
+			<img id="mainImage" src="assets/images/headshot_closeup.jpg">
+			<p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<!--This div contains the side bar content-->
+		<div id="sideBar">
+			<h3>Connect with Me</h3>
+			<a target="_blank" href="http://github.com/901david/"><img src="assets/images/gitlogo.png"></a>
+			<a target="_blank" href="http://stackoverflow.com/users/7826396/901david?tab=profile"><img src="assets/images/stackoverflow.png"></a>
+			<a target="_blank" href="https://www.linkedin.com/in/david-hammond-96b1b8137/"><img src="assets/images/linked.jpg"></a>
+		</div>
+		<!--This is the footer-->
+		<footer>
+			<p>&copyCopyright 2017 David Hammond</p>
+		</footer>
+		</div>
+		</div>
 </body>
 </html>
