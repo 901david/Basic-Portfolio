@@ -4,12 +4,18 @@ body {
 	background-color: black;
 	margin:0;
 }
-#topBox {
-	background-color:#4aaaa5 ;
-	width:300px;
-	height:85px;
-	margin:0 0 0 130px;
-	float:left;
+footer {
+	clear:both;
+	width:100%;
+	height: 90px;
+	background-color: #666666;
+	border-top: 10px solid #4aaaa5;
+	color:lightgrey;
+}
+footer p {
+	padding-left: 450px;
+	padding-top: 30px;
+	font-size: 10px;
 }
 h1 {
 	padding-left: 55px;
@@ -21,32 +27,11 @@ h1 h2 h3{
 	font-family:'Georgia', Times, Times New Roman, serif;
 	text-align: center;
 }
-#content h2 {
-	color:#4aaaa5;
-	margin-left: 45px;
-	border-bottom: 5px solid #dddddd;
-	padding-bottom: 10px;
-	margin-right: 45px;
-}
-#sideBar h3 {
-	color:#4aaaa5;
-	padding-bottom: 5px;
-	margin-left: 20px;
-}
 nav {
 	margin-top: 30px;
 	margin-right: 250px;
 	float:right;
 }
-#portLink {
-	border-right: 2px solid lightgrey;
-	border-left: 2px solid lightgrey;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-}
-
 nav a:link{
 	color:#A7B8C9;
 	text-decoration: none;
@@ -63,6 +48,43 @@ nav a:active {
 	color:green;
 	text-decoration: underline;
 }
+#topBox {
+	background-color:#4aaaa5 ;
+	width:300px;
+	height:85px;
+	margin:0 0 0 130px;
+	float:left;
+}
+#content h2 {
+	color:#4aaaa5;
+	margin-left: 45px;
+	border-bottom: 5px solid #dddddd;
+	padding-bottom: 10px;
+	margin-right: 45px;
+}
+#sideBarAbout h3 {
+	color:#4aaaa5;
+	padding-bottom: 5px;
+	margin-left: 20px;
+}
+#sideBarContact h3 {
+	color:#4aaaa5;
+	padding-bottom: 5px;
+	margin-left: 20px;
+}
+#sideBarPort h3 {
+	color:#4aaaa5;
+	padding-bottom: 5px;
+	margin-left: 20px;
+}
+#portLink {
+	border-right: 2px solid lightgrey;
+	border-left: 2px solid lightgrey;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
 #topBar{
 	padding:0;
 	margin:0;
@@ -71,19 +93,53 @@ nav a:active {
 #wrapper {
 	clear:both;
 	border-top: 3px solid #dddddd;
-	background-image: url("assets/images/back.png");
+	background-image: url('../images/back.png');
 	background-color: white;
 }
-#sideBar {
+#sideBarAbout {
+	clear: both;
 	background-color: #ffffff;
 	border:1px solid #dddddd;
 	width:200px;
 	position: relative;
-	bottom:398px;
+	bottom:395px;
 	left:700px;
-	overflow: none; 
+	overflow: none;
+	color:#4aaaa5; 
 }
-#sideBar img{
+#sideBarAbout img{
+	height:25%;
+	width:25%;
+	padding: 6px;
+}
+#sideBarContact {
+	clear: both;
+	background-color: #ffffff;
+	border:1px solid #dddddd;
+	width:200px;
+	position: relative;
+	bottom:430px;
+	left:700px;
+	overflow: none;
+	color:#4aaaa5; 
+}
+#sideBarContact img{
+	height:25%;
+	width:25%;
+	padding: 6px;
+}
+#sideBarPort {
+	clear: both;
+	background-color: #ffffff;
+	border:1px solid #dddddd;
+	width:200px;
+	position: relative;
+	bottom:828px;
+	left:700px;
+	overflow: none;
+	color:#4aaaa5; 
+}
+#sideBarPort img{
 	height:25%;
 	width:25%;
 	padding: 6px;
@@ -96,9 +152,6 @@ nav a:active {
 	position:relative;
 	top:75px;
 	left:130px;
-}
-#content p {
-	margin-right: 45px;
 }
 #mainImage {
 	float:left;
@@ -113,16 +166,52 @@ nav a:active {
 	height:650px;
 	margin:auto;
 }
-footer {
-	width:100%;
-	height: 90px;
-	background-color: #666666;
-	border-top: 10px solid #4aaaa5;
-	color:lightgrey;
+#content input {
+	margin:0 0 10px 45px;
 }
-footer p {
-	padding-left: 450px;
-	padding-top: 30px;
-	font-size: 10px;
+#content p {
+	padding:0 10px 0 45px;
 }
-
+#content textarea {
+	margin:0 0 0 45px;
+} 
+.box {
+	width: 150px;
+	height: 150px;
+	background-color: black;	 
+}
+.box p {
+	color:white;
+	background-color:#4aaaa5;
+	width:95px;
+	height:40px;
+	position: relative;
+	top:85px;
+	font-size: 18px;
+	text-align: center;
+}
+#hang {
+	position:relative;
+	top:15px;
+	left:75px;
+}
+#rpg {
+	position:relative;
+	top:-150px;
+	left:275px;
+}
+#trivia {
+	position:relative;
+	top:-75px;
+	left:75px;
+}
+#rutgers {
+	position:relative;
+	top:-240px;
+	left:275px;
+}
+#rock {
+	position:relative;
+	top:-175px;
+	left:75px;
+}
