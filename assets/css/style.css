@@ -82,50 +82,16 @@ nav a:active {
 	background-image: url('../images/back.png');
 	background-color: white;
 }
-#sideBarAbout {
-	clear: both;
+#sideBar {
 	background-color: #ffffff;
 	border:1px solid #dddddd;
 	width:225px;
-	position: relative;
-	bottom:395px;
-	left:700px;
+	float:left;
 	overflow: none;
-	color:#4aaaa5; 
+	color:#4aaaa5;
+	margin:50px 0 0 0; 
 }
-#sideBarAbout img{
-	height:25%;
-	width:25%;
-	padding: 6px;
-}
-#sideBarContact {
-	clear: both;
-	background-color: #ffffff;
-	border:1px solid #dddddd;
-	width:225px;
-	position: relative;
-	bottom:430px;
-	left:700px;
-	overflow: none;
-	color:#4aaaa5; 
-}
-#sideBarContact img{
-	height:25%;
-	width:25%;
-	padding: 6px;
-}
-#sideBarPort {
-	clear: both;
-	background-color: #ffffff;
-	border:1px solid #dddddd;
-	width:225px;
-	position: relative;
-	bottom:828px;
-	left:700px;
-	overflow: none;
-	color:#4aaaa5; 
-}
-#sideBarPort img{
+#sideBar img{
 	height:25%;
 	width:25%;
 	padding: 6px;
@@ -135,9 +101,8 @@ nav a:active {
 	background-color: #ffffff;
 	border:1px solid #dddddd;
 	width:500px;
-	position:relative;
-	top:75px;
-	left:130px;
+	float:left;
+	margin: 50px 50px 50px 125px;
 }
 #mainImage {
 	float:left;
@@ -202,7 +167,7 @@ nav a:active {
 	left:75px;
 }
 #centerIcon {
-	margin-left: 6px;
+	margin-left: 11px;
 }
 h3{
 	font-size:24px;
@@ -210,7 +175,7 @@ h3{
 	margin-right: 5px;
 	margin-left: 5px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 18px;
     padding-bottom: 12px;
     
 }
