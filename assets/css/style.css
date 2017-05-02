@@ -61,7 +61,7 @@ nav a:active {
 	margin-left: 45px;
 	border-bottom: 5px solid #dddddd;
 	padding-bottom: 10px;
-	margin-right: 45px;
+	margin-right: 37px;
 }
 #portLink {
 	border-right: 2px solid lightgrey;
@@ -121,50 +121,52 @@ nav a:active {
 	margin:0 0 10px 45px;
 }
 #content p {
-	padding:0 10px 0 45px;
+	padding:0 40px 0 45px;
 }
 #content textarea {
 	margin:0 0 0 45px;
 } 
 .box {
-	width: 150px;
+	width: 200px;
 	height: 150px;
 	background-color: black;	 
 }
 .box p {
 	color:white;
 	background-color:#4aaaa5;
-	width:95px;
+	width:115px;
 	height:40px;
 	position: relative;
-	top:85px;
+	top:75px;
 	font-size: 18px;
 	padding-right: 5px;
 }
 #hang {
-	position:relative;
-	top:15px;
-	left:75px;
+	float: left;
+	margin-left: 47px;
+    margin-right: 15px;
+    margin-bottom: 45px;
 }
 #rpg {
-	position:relative;
-	top:-150px;
-	left:275px;
+	float:left;
+
 }
 #trivia {
-	position:relative;
-	top:-75px;
-	left:75px;
+	clear:both;
+	float:left;
+	margin-left: 47px;
+    margin-right: 15px;
+    margin-bottom: 45px;
 }
 #rutgers {
-	position:relative;
-	top:-240px;
-	left:275px;
+	float:left;
 }
 #rock {
-	position:relative;
-	top:-175px;
-	left:75px;
+	clear:both;
+	float:left;
+	margin-left: 47px;
+    margin-right: 15px;
+    margin-bottom: 45px;
 }
 #centerIcon {
 	margin-left: 11px;
