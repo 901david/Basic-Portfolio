@@ -30,7 +30,7 @@ h1 h2 h3{
 }
 nav {
 	margin-top: 30px;
-	margin-right: 250px;
+	margin-right: 150px;
 	float:right;
 }
 nav a:link{
@@ -105,6 +105,11 @@ nav a:active {
 	margin: 50px 50px 50px 125px;
 }
 #mainImage {
+	float:left;
+	height: 50%;
+	width: 50%;
+}
+#secondaryImage {
 	float:left;
 	height: 50%;
 	width: 50%;
